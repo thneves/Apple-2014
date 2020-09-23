@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-horizontal {
+  display: flex;
+    
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-font {
+  font-size: 10px;
+}
+.container {
+  width: 70%;
+  margin: 20px auto 100px auto;
+}
+
+header {
+  background-image: url(images/applebg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  width: 100%;
+  margin: ;
+}
+
+nav {
+  width: 90%;
+  padding-top: 100px;  
+}
+
+ul li {
+  list-style: none;
+  padding: 5px 30px;
+  border: 1px solid blue;
+  align-items: center;  
+}
+
+main {
+  width: 100%
+}
+
+main img {
+  width: 24.7%;
+  margin: 2px;
+  height: 200px;
+}
+
+.footer-info-right ul li {
+    list-style: none;
+    
+}
