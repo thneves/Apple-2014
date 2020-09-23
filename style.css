@@ -15,9 +15,7 @@ body {
   align-items: center;
 }
 
-.footer-font {
-  font-size: 10px;
-}
+
 .container {
   width: 70%;
   margin: 20px auto 100px auto;
@@ -30,7 +28,6 @@ header {
   background-position: center;
   height: 1000px;
   width: 100%;
-  margin: ;
 }
 
 nav {
@@ -38,7 +35,7 @@ nav {
   padding-top: 100px;  
 }
 
-ul li {
+header ul li {
   list-style: none;
   padding: 5px 30px;
   border: 1px solid blue;
@@ -55,7 +52,47 @@ main img {
   height: 200px;
 }
 
+/* FOOTER */
+
+.footer-info-top {
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 150px 0 150px;
+  
+}
+
+.footer-links {
+  color: #0f8fcf;
+  text-decoration: none;
+}
+
+.footer-list {
+  border-right: 0.5px solid gray;
+  padding: 0 5px;   
+}
+
+.footer-font {
+  font-size: 10px;
+}
+
+.footer-info-right ul {
+  align-items: center;
+}
+
+.usa-icon {
+  padding-left: 5px;
+}
+
 .footer-info-right ul li {
     list-style: none;
-    
+}
+
+.usa-icon {
+  width: 20px;
+  height: auto;
+}
+
+.footer-info-bottom {
+  margin-left: 150px;
+  margin-top: -13px;
 }
