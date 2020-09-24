@@ -4,11 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* global settings */
 
 .d-flex {
   display: flex;
@@ -30,23 +26,25 @@ body {
 border-right: 1px solid #757F9A;
 }
 
+.total-width {
+  width: 100%;
+}
+
 /* HEADER */
 
 header {
   background-image: url(images/applebg.jpg);
   background-repeat: no-repeat;
- 
   background-position: center bottom;
-  width: 100%;
   height: 69%;
 }
 
-nav {
+.nav-bar {
   margin-top: 80px;
   width: 70%;
 }
 
-header ul {
+.nav-list {
   background: linear-gradient(
     to bottom, 
     #80807e,
@@ -56,22 +54,20 @@ header ul {
     #80807e);
   align-items: center;
   justify-content: center;
-  width: 100%;
   border-radius: 5px;  
 }
 
-header ul li {
+.nav-items {
   display: flex;
   justify-content: center;
   align-content: center;
   list-style: none;
-  width: 100%;
   height: 35px;
   font-size: 14px;
   color: white;  
 }
 
-header ul li a {
+.nav-items a {
   align-self: center;
   color: white;
   font-size: 12px;
@@ -151,17 +147,12 @@ input[type="text"]::placeholder {
 
 /* Main images */
 
-main {
-  width: 100%
-}
-
-main a {
+.apple-products a {
   width: 25%;
   margin: 1px;
 }
 
-main a img {
-  width: 100%;
+.apple-products-images {
   height: 200px;
 }
 
@@ -176,7 +167,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 10px 150px;
-  width: 100%;
 }
 
 .footer-links {
@@ -211,22 +201,20 @@ footer {
 }
 
 .footer-info-bottom {
-  width: 100%;
   padding-left: 150px;
 }
 
 /* HOVER EFFECTS */
 
+.pointer:hover {
+cursor: pointer;
+}
+
 .list-hover:hover {
   background: linear-gradient(to top, #ced4d8, #4c3e50);
-  cursor: pointer;
 }
 
 .text-deco:hover {
   text-decoration: underline;
-  cursor: pointer;
 }
 
-header:hover {
-  cursor: pointer;
-}
