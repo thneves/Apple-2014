@@ -47,7 +47,13 @@ nav {
 }
 
 header ul {
-  background: linear-gradient(to bottom, #2c3e50, #bdc3c7);
+  background: linear-gradient(
+    to bottom, 
+    #80807e,
+    #80807e 50%,
+    #636361 50%, 
+    #636361 70%,
+    #80807e);
   align-items: center;
   justify-content: center;
   width: 100%;
