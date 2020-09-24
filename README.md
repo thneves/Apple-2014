@@ -4,7 +4,7 @@
 
 > This is a project replicating the design of the Apple Homepage of 2014
 
-![screenshot](images/screenshot.jpg)
+![screenshot](/images/screenshot.jpg)
 
 As required by Microverse as the fourth project, this clone was designed by the use of only HTML and CSS.
 
