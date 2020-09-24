@@ -112,17 +112,14 @@ input[type="text"]::placeholder {
   opacity: 1;
 }
 
-
 .nav-search-bar::after {
   width: 120px;
 }
-
 
 /* Header paragraphs */
 
 .text-content {
   color: white;
-  opacity: 0.8;
   font-family: 'Montserrat', sans-serif;
   margin: 80px 0;
 }
@@ -141,7 +138,7 @@ input[type="text"]::placeholder {
 }
 
 .third-para {
-  font-size: 20px;
+  font-size: 22px;
   color: white;
   text-decoration: none;
 }
